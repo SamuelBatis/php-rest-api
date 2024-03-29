@@ -1,5 +1,5 @@
 <?php
-include "../models/Cliente.php";
+include "../../models/Cliente.php";
 
 $resposta = array();
 
