@@ -1,5 +1,5 @@
 <?php
-include "modelo/Cliente.php";
+include "../../models/Cliente.php";
 $resposta = array();
 
 $jsonRecebido = file_get_contents('php://input');

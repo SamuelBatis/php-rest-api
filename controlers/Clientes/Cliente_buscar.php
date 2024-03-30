@@ -1,5 +1,5 @@
 <?php
-include "modelo/Cliente.php";
+include "../../models/Cliente.php";
 $resposta = array();
 $partesRota = explode("/", $_SERVER['REQUEST_URI']);
 $id = $partesRota[2];
